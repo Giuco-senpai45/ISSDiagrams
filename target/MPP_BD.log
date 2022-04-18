@@ -1,0 +1,306 @@
+16 Apr 2022 12:46:46,783 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 12:46:47,445 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@6f2cf0f5 instances
+16 Apr 2022 12:46:47,446 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 12:46:47,472 TRACE repositories.RepoProduct 108 findAll - Enter find all products
+16 Apr 2022 12:46:47,473 TRACE repositories.RepoProduct 134 findAll - Exit with([])
+16 Apr 2022 13:14:06,478 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 13:14:06,614 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@218f0bf instances
+16 Apr 2022 13:14:06,615 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 13:14:06,639 TRACE repositories.RepoProduct 108 findAll - Enter find all products
+16 Apr 2022 13:14:06,641 TRACE repositories.RepoProduct 134 findAll - Exit with([model.Product@34167d17, model.Product@e5752f0, model.Product@122c9aee, model.Product@4bcfe7cf, model.Product@4c36c564, model.Product@78c2cec0, model.Product@e4fc0dc])
+16 Apr 2022 13:16:11,338 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 13:16:11,459 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@218f0bf instances
+16 Apr 2022 13:16:11,460 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 13:16:11,484 TRACE repositories.RepoProduct 108 findAll - Enter find all products
+16 Apr 2022 13:16:11,485 TRACE repositories.RepoProduct 134 findAll - Exit with([Diplomat | 8.9 | 200, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 300, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 15:26:41,871 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 15:26:42,035 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@54268202 instances
+16 Apr 2022 15:26:42,036 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 15:26:42,064 TRACE repositories.RepoProduct 108 findAll - Enter find all products
+16 Apr 2022 15:26:42,066 TRACE repositories.RepoProduct 134 findAll - Exit with([Diplomat | 8.9 | 200, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 300, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 15:49:43,661 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 15:49:43,804 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@6f2cf0f5 instances
+16 Apr 2022 15:49:43,805 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 15:49:43,831 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 15:49:43,833 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 200, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 300, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 15:51:37,451 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 15:51:37,586 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@7b56ddd6 instances
+16 Apr 2022 15:51:37,587 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 15:51:37,615 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 15:51:37,617 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 200, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 300, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 15:51:45,021 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+16 Apr 2022 15:51:45,022 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 200 instances
+16 Apr 2022 15:51:45,022 TRACE repositories.RepoProduct 163 findByName - Exit
+16 Apr 2022 15:54:56,727 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 15:54:56,863 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@1611ae16 instances
+16 Apr 2022 15:54:56,864 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 15:54:56,892 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 15:54:56,893 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 200, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 300, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 15:55:05,967 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+16 Apr 2022 15:55:05,968 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 200 instances
+16 Apr 2022 15:55:05,968 TRACE repositories.RepoProduct 163 findByName - Exit
+16 Apr 2022 15:55:32,260 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 15:55:32,387 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@218f0bf instances
+16 Apr 2022 15:55:32,388 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 15:55:32,415 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 15:55:32,417 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 200, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 300, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 15:55:38,236 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+16 Apr 2022 15:55:38,237 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 200 instances
+16 Apr 2022 15:55:38,237 TRACE repositories.RepoProduct 163 findByName - Exit
+16 Apr 2022 15:55:56,541 TRACE repositories.RepoProduct 77 findById - Enter Finding product 1
+16 Apr 2022 15:55:56,541 TRACE repositories.RepoProduct 95 findById - Found Diplomat | 8.9 | 200 instances
+16 Apr 2022 15:55:56,542 TRACE repositories.RepoProduct 102 findById - Exit
+16 Apr 2022 15:55:56,542 TRACE repositories.RepoProduct 59 update - Enter updating product Diplomat | 8.9 | 196
+16 Apr 2022 15:55:56,549 TRACE repositories.RepoProduct 68 update - Updated 1 instances
+16 Apr 2022 15:55:56,550 TRACE repositories.RepoProduct 73 update - Exit
+16 Apr 2022 15:57:35,565 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 15:57:35,714 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@218f0bf instances
+16 Apr 2022 15:57:35,715 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 15:57:35,743 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 15:57:35,745 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 196, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 300, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 16:00:52,862 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 16:00:52,981 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@eeaac94 instances
+16 Apr 2022 16:00:52,981 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 16:00:53,008 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 16:00:53,010 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 196, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 300, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 16:01:02,250 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Amandina
+16 Apr 2022 16:01:02,251 TRACE repositories.RepoProduct 156 findByName - Found Amandina | 9.9 | 100 instances
+16 Apr 2022 16:01:02,251 TRACE repositories.RepoProduct 163 findByName - Exit
+16 Apr 2022 16:01:12,991 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 16:01:12,992 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 196, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 300, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 16:07:01,962 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 16:07:02,124 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@66d4dc28 instances
+16 Apr 2022 16:07:02,125 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 16:07:02,150 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 16:07:02,152 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 196, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 300, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 16:07:09,854 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Butuc de ciocolata
+16 Apr 2022 16:07:09,854 TRACE repositories.RepoProduct 156 findByName - Found Butuc de ciocolata | 12.1 | 300 instances
+16 Apr 2022 16:07:09,854 TRACE repositories.RepoProduct 163 findByName - Exit
+16 Apr 2022 16:07:21,627 TRACE repositories.RepoProduct 77 findById - Enter Finding product 3
+16 Apr 2022 16:07:21,628 TRACE repositories.RepoProduct 95 findById - Found Butuc de ciocolata | 12.1 | 300 instances
+16 Apr 2022 16:07:21,628 TRACE repositories.RepoProduct 102 findById - Exit
+16 Apr 2022 16:07:21,628 TRACE repositories.RepoProduct 59 update - Enter updating product Butuc de ciocolata | 12.1 | 295
+16 Apr 2022 16:07:21,638 TRACE repositories.RepoProduct 68 update - Updated 1 instances
+16 Apr 2022 16:07:21,638 TRACE repositories.RepoProduct 73 update - Exit
+16 Apr 2022 16:07:27,063 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 16:07:27,064 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 196, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 295, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 16:08:37,755 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 16:08:37,891 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@218f0bf instances
+16 Apr 2022 16:08:37,892 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 16:08:37,920 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 16:08:37,921 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 196, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 295, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 16:08:42,051 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+16 Apr 2022 16:08:42,052 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 196 instances
+16 Apr 2022 16:08:42,052 TRACE repositories.RepoProduct 163 findByName - Exit
+16 Apr 2022 16:08:49,643 TRACE repositories.RepoProduct 77 findById - Enter Finding product 1
+16 Apr 2022 16:08:49,644 TRACE repositories.RepoProduct 95 findById - Found Diplomat | 8.9 | 196 instances
+16 Apr 2022 16:08:49,644 TRACE repositories.RepoProduct 102 findById - Exit
+16 Apr 2022 16:08:49,644 TRACE repositories.RepoProduct 59 update - Enter updating product Diplomat | 8.9 | 195
+16 Apr 2022 16:08:49,653 TRACE repositories.RepoProduct 68 update - Updated 1 instances
+16 Apr 2022 16:08:49,653 TRACE repositories.RepoProduct 73 update - Exit
+16 Apr 2022 16:09:28,529 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 16:09:28,655 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@7b56ddd6 instances
+16 Apr 2022 16:09:28,656 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 16:09:28,683 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 16:09:28,685 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 195, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 295, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 16:09:32,861 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+16 Apr 2022 16:09:32,862 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 195 instances
+16 Apr 2022 16:09:32,862 TRACE repositories.RepoProduct 163 findByName - Exit
+16 Apr 2022 16:09:39,732 TRACE repositories.RepoProduct 77 findById - Enter Finding product 1
+16 Apr 2022 16:09:39,733 TRACE repositories.RepoProduct 95 findById - Found Diplomat | 8.9 | 195 instances
+16 Apr 2022 16:09:39,734 TRACE repositories.RepoProduct 102 findById - Exit
+16 Apr 2022 16:09:39,734 TRACE repositories.RepoProduct 59 update - Enter updating product Diplomat | 8.9 | 194
+16 Apr 2022 16:09:39,744 TRACE repositories.RepoProduct 68 update - Updated 1 instances
+16 Apr 2022 16:09:39,744 TRACE repositories.RepoProduct 73 update - Exit
+16 Apr 2022 16:12:00,897 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 16:12:01,018 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@218f0bf instances
+16 Apr 2022 16:12:01,018 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 16:12:01,044 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 16:12:01,046 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 194, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 295, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 16:12:04,333 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+16 Apr 2022 16:12:04,334 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 194 instances
+16 Apr 2022 16:12:04,334 TRACE repositories.RepoProduct 163 findByName - Exit
+16 Apr 2022 16:12:10,407 TRACE repositories.RepoProduct 77 findById - Enter Finding product 1
+16 Apr 2022 16:12:10,408 TRACE repositories.RepoProduct 95 findById - Found Diplomat | 8.9 | 194 instances
+16 Apr 2022 16:12:10,408 TRACE repositories.RepoProduct 102 findById - Exit
+16 Apr 2022 16:12:10,408 TRACE repositories.RepoProduct 59 update - Enter updating product Diplomat | 8.9 | 193
+16 Apr 2022 16:12:10,416 TRACE repositories.RepoProduct 68 update - Updated 1 instances
+16 Apr 2022 16:12:10,417 TRACE repositories.RepoProduct 73 update - Exit
+16 Apr 2022 16:13:40,836 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 16:13:40,958 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@6f2cf0f5 instances
+16 Apr 2022 16:13:40,959 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 16:13:40,987 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 16:13:40,989 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 193, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 295, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 16:13:45,633 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Butuc de ciocolata
+16 Apr 2022 16:13:45,633 TRACE repositories.RepoProduct 156 findByName - Found Butuc de ciocolata | 12.1 | 295 instances
+16 Apr 2022 16:13:45,634 TRACE repositories.RepoProduct 163 findByName - Exit
+16 Apr 2022 16:13:58,073 TRACE repositories.RepoProduct 77 findById - Enter Finding product 3
+16 Apr 2022 16:13:58,074 TRACE repositories.RepoProduct 95 findById - Found Butuc de ciocolata | 12.1 | 295 instances
+16 Apr 2022 16:13:58,075 TRACE repositories.RepoProduct 102 findById - Exit
+16 Apr 2022 16:13:58,075 TRACE repositories.RepoProduct 59 update - Enter updating product Butuc de ciocolata | 12.1 | 294
+16 Apr 2022 16:13:58,084 TRACE repositories.RepoProduct 68 update - Updated 1 instances
+16 Apr 2022 16:13:58,085 TRACE repositories.RepoProduct 73 update - Exit
+16 Apr 2022 16:18:23,784 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 16:18:23,910 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@6f2cf0f5 instances
+16 Apr 2022 16:18:23,911 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 16:18:23,936 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 16:18:23,938 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 193, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 294, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 16:18:27,050 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+16 Apr 2022 16:18:27,051 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 193 instances
+16 Apr 2022 16:18:27,051 TRACE repositories.RepoProduct 163 findByName - Exit
+16 Apr 2022 16:18:32,069 TRACE repositories.RepoProduct 77 findById - Enter Finding product 1
+16 Apr 2022 16:18:32,070 TRACE repositories.RepoProduct 95 findById - Found Diplomat | 8.9 | 193 instances
+16 Apr 2022 16:18:32,070 TRACE repositories.RepoProduct 102 findById - Exit
+16 Apr 2022 16:18:32,070 TRACE repositories.RepoProduct 59 update - Enter updating product Diplomat | 8.9 | 192
+16 Apr 2022 16:18:32,078 TRACE repositories.RepoProduct 68 update - Updated 1 instances
+16 Apr 2022 16:18:32,078 TRACE repositories.RepoProduct 73 update - Exit
+16 Apr 2022 16:21:02,491 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 16:21:02,618 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@66d4dc28 instances
+16 Apr 2022 16:21:02,619 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 16:21:02,646 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 16:21:02,648 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 192, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 294, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 16:21:05,436 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+16 Apr 2022 16:21:05,437 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 192 instances
+16 Apr 2022 16:21:05,437 TRACE repositories.RepoProduct 163 findByName - Exit
+16 Apr 2022 16:21:10,933 TRACE repositories.RepoProduct 77 findById - Enter Finding product 1
+16 Apr 2022 16:21:10,934 TRACE repositories.RepoProduct 95 findById - Found Diplomat | 8.9 | 192 instances
+16 Apr 2022 16:21:10,934 TRACE repositories.RepoProduct 102 findById - Exit
+16 Apr 2022 16:21:10,934 TRACE repositories.RepoProduct 59 update - Enter updating product Diplomat | 8.9 | 191
+16 Apr 2022 16:21:10,942 TRACE repositories.RepoProduct 68 update - Updated 1 instances
+16 Apr 2022 16:21:10,943 TRACE repositories.RepoProduct 73 update - Exit
+16 Apr 2022 16:22:42,916 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+16 Apr 2022 16:22:43,044 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@218f0bf instances
+16 Apr 2022 16:22:43,045 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+16 Apr 2022 16:22:43,071 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 16:22:43,073 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 191, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 294, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+16 Apr 2022 16:22:46,326 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+16 Apr 2022 16:22:46,327 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 191 instances
+16 Apr 2022 16:22:46,327 TRACE repositories.RepoProduct 163 findByName - Exit
+16 Apr 2022 16:22:52,355 TRACE repositories.RepoProduct 77 findById - Enter Finding product 1
+16 Apr 2022 16:22:52,356 TRACE repositories.RepoProduct 95 findById - Found Diplomat | 8.9 | 191 instances
+16 Apr 2022 16:22:52,356 TRACE repositories.RepoProduct 102 findById - Exit
+16 Apr 2022 16:22:52,356 TRACE repositories.RepoProduct 59 update - Enter updating product Diplomat | 8.9 | 190
+16 Apr 2022 16:22:52,365 TRACE repositories.RepoProduct 68 update - Updated 1 instances
+16 Apr 2022 16:22:52,366 TRACE repositories.RepoProduct 73 update - Exit
+16 Apr 2022 16:22:52,373 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+16 Apr 2022 16:22:52,374 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 190, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 294, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+18 Apr 2022 00:44:30,427 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+18 Apr 2022 00:44:30,581 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@218f0bf instances
+18 Apr 2022 00:44:30,582 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+18 Apr 2022 00:44:30,630 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+18 Apr 2022 00:44:30,637 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 190, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 294, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+18 Apr 2022 00:44:39,253 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+18 Apr 2022 00:44:39,253 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 190 instances
+18 Apr 2022 00:44:39,254 TRACE repositories.RepoProduct 163 findByName - Exit
+18 Apr 2022 00:47:22,048 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+18 Apr 2022 00:47:22,169 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@12877c2a instances
+18 Apr 2022 00:47:22,170 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+18 Apr 2022 00:47:22,199 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+18 Apr 2022 00:47:22,201 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 190, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 294, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+18 Apr 2022 00:47:26,121 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+18 Apr 2022 00:47:26,122 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 190 instances
+18 Apr 2022 00:47:26,122 TRACE repositories.RepoProduct 163 findByName - Exit
+18 Apr 2022 00:47:29,214 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Eclere
+18 Apr 2022 00:47:29,214 TRACE repositories.RepoProduct 156 findByName - Found Eclere | 6.9 | 420 instances
+18 Apr 2022 00:47:29,215 TRACE repositories.RepoProduct 163 findByName - Exit
+18 Apr 2022 00:47:34,370 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+18 Apr 2022 00:47:34,371 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 190, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 294, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+18 Apr 2022 00:47:34,372 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+18 Apr 2022 00:47:34,372 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 190, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 294, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+18 Apr 2022 00:52:47,695 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+18 Apr 2022 00:52:47,827 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@6f2cf0f5 instances
+18 Apr 2022 00:52:47,828 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+18 Apr 2022 00:52:47,866 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+18 Apr 2022 00:52:47,869 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 190, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 294, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+18 Apr 2022 00:52:57,633 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+18 Apr 2022 00:52:57,633 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 190 instances
+18 Apr 2022 00:52:57,634 TRACE repositories.RepoProduct 163 findByName - Exit
+18 Apr 2022 00:53:01,076 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Amandina
+18 Apr 2022 00:53:01,077 TRACE repositories.RepoProduct 156 findByName - Found Amandina | 9.9 | 100 instances
+18 Apr 2022 00:53:01,077 TRACE repositories.RepoProduct 163 findByName - Exit
+18 Apr 2022 00:54:08,413 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+18 Apr 2022 00:54:08,601 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@10860655 instances
+18 Apr 2022 00:54:08,601 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+18 Apr 2022 00:54:08,637 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+18 Apr 2022 00:54:08,639 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 190, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 294, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+18 Apr 2022 00:54:10,990 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+18 Apr 2022 00:54:10,991 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 190 instances
+18 Apr 2022 00:54:10,991 TRACE repositories.RepoProduct 163 findByName - Exit
+18 Apr 2022 00:54:14,995 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Butuc de ciocolata
+18 Apr 2022 00:54:14,996 TRACE repositories.RepoProduct 156 findByName - Found Butuc de ciocolata | 12.1 | 294 instances
+18 Apr 2022 00:54:14,996 TRACE repositories.RepoProduct 163 findByName - Exit
+18 Apr 2022 00:54:27,202 TRACE repositories.RepoProduct 77 findById - Enter Finding product 1
+18 Apr 2022 00:54:27,203 TRACE repositories.RepoProduct 95 findById - Found Diplomat | 8.9 | 190 instances
+18 Apr 2022 00:54:27,203 TRACE repositories.RepoProduct 102 findById - Exit
+18 Apr 2022 00:54:27,204 TRACE repositories.RepoProduct 59 update - Enter updating product Diplomat | 8.9 | 188
+18 Apr 2022 00:54:27,213 TRACE repositories.RepoProduct 68 update - Updated 1 instances
+18 Apr 2022 00:54:27,213 TRACE repositories.RepoProduct 73 update - Exit
+18 Apr 2022 00:54:27,223 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+18 Apr 2022 00:54:27,224 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 188, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 294, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+18 Apr 2022 00:54:27,225 TRACE repositories.RepoProduct 77 findById - Enter Finding product 3
+18 Apr 2022 00:54:27,226 TRACE repositories.RepoProduct 95 findById - Found Butuc de ciocolata | 12.1 | 294 instances
+18 Apr 2022 00:54:27,226 TRACE repositories.RepoProduct 102 findById - Exit
+18 Apr 2022 00:54:27,226 TRACE repositories.RepoProduct 59 update - Enter updating product Butuc de ciocolata | 12.1 | 292
+18 Apr 2022 00:54:27,235 TRACE repositories.RepoProduct 68 update - Updated 1 instances
+18 Apr 2022 00:54:27,236 TRACE repositories.RepoProduct 73 update - Exit
+18 Apr 2022 00:54:27,236 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+18 Apr 2022 00:54:27,237 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 188, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 292, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+18 Apr 2022 00:55:11,903 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+18 Apr 2022 00:55:12,031 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@218f0bf instances
+18 Apr 2022 00:55:12,032 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+18 Apr 2022 00:55:12,064 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+18 Apr 2022 00:55:12,067 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 188, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 292, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+18 Apr 2022 00:55:14,359 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+18 Apr 2022 00:55:14,359 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 188 instances
+18 Apr 2022 00:55:14,359 TRACE repositories.RepoProduct 163 findByName - Exit
+18 Apr 2022 00:55:31,770 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+18 Apr 2022 00:55:31,895 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@6f2cf0f5 instances
+18 Apr 2022 00:55:31,896 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+18 Apr 2022 00:55:31,924 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+18 Apr 2022 00:55:31,926 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 188, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 292, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+18 Apr 2022 00:55:34,115 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+18 Apr 2022 00:55:34,116 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 188 instances
+18 Apr 2022 00:55:34,116 TRACE repositories.RepoProduct 163 findByName - Exit
+18 Apr 2022 00:56:47,800 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+18 Apr 2022 00:56:47,927 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@6f2cf0f5 instances
+18 Apr 2022 00:56:47,928 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+18 Apr 2022 00:56:47,961 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+18 Apr 2022 00:56:47,963 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 188, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 292, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+18 Apr 2022 00:56:50,573 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+18 Apr 2022 00:56:50,574 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 188 instances
+18 Apr 2022 00:56:50,574 TRACE repositories.RepoProduct 163 findByName - Exit
+18 Apr 2022 01:04:02,385 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+18 Apr 2022 01:04:02,522 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@66d4dc28 instances
+18 Apr 2022 01:04:02,522 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+18 Apr 2022 01:04:02,557 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+18 Apr 2022 01:04:02,561 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 188, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 292, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+18 Apr 2022 01:04:05,824 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+18 Apr 2022 01:04:05,825 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 188 instances
+18 Apr 2022 01:04:05,825 TRACE repositories.RepoProduct 163 findByName - Exit
+18 Apr 2022 08:14:24,364 TRACE repositories.RepoOrganizer 122 findOrganiserLogin - Enter Finding by name o1
+18 Apr 2022 08:14:24,505 TRACE repositories.RepoOrganizer 136 findOrganiserLogin - Found model.Organizer@66d4dc28 instances
+18 Apr 2022 08:14:24,506 TRACE repositories.RepoOrganizer 143 findOrganiserLogin - Exit
+18 Apr 2022 08:14:24,538 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+18 Apr 2022 08:14:24,540 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 188, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 292, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+18 Apr 2022 08:14:29,192 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Diplomat
+18 Apr 2022 08:14:29,193 TRACE repositories.RepoProduct 156 findByName - Found Diplomat | 8.9 | 188 instances
+18 Apr 2022 08:14:29,193 TRACE repositories.RepoProduct 163 findByName - Exit
+18 Apr 2022 08:14:34,176 TRACE repositories.RepoProduct 138 findByName - Enter Finding product by name Amandina
+18 Apr 2022 08:14:34,177 TRACE repositories.RepoProduct 156 findByName - Found Amandina | 9.9 | 100 instances
+18 Apr 2022 08:14:34,177 TRACE repositories.RepoProduct 163 findByName - Exit
+18 Apr 2022 08:14:45,461 TRACE repositories.RepoProduct 77 findById - Enter Finding product 1
+18 Apr 2022 08:14:45,461 TRACE repositories.RepoProduct 95 findById - Found Diplomat | 8.9 | 188 instances
+18 Apr 2022 08:14:45,462 TRACE repositories.RepoProduct 102 findById - Exit
+18 Apr 2022 08:14:45,462 TRACE repositories.RepoProduct 59 update - Enter updating product Diplomat | 8.9 | 186
+18 Apr 2022 08:14:45,469 TRACE repositories.RepoProduct 68 update - Updated 1 instances
+18 Apr 2022 08:14:45,470 TRACE repositories.RepoProduct 73 update - Exit
+18 Apr 2022 08:14:45,476 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+18 Apr 2022 08:14:45,478 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 186, Amandina | 9.9 | 100, Butuc de ciocolata | 12.1 | 292, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+18 Apr 2022 08:14:45,479 TRACE repositories.RepoProduct 77 findById - Enter Finding product 2
+18 Apr 2022 08:14:45,479 TRACE repositories.RepoProduct 95 findById - Found Amandina | 9.9 | 100 instances
+18 Apr 2022 08:14:45,479 TRACE repositories.RepoProduct 102 findById - Exit
+18 Apr 2022 08:14:45,480 TRACE repositories.RepoProduct 59 update - Enter updating product Amandina | 9.9 | 99
+18 Apr 2022 08:14:45,487 TRACE repositories.RepoProduct 68 update - Updated 1 instances
+18 Apr 2022 08:14:45,488 TRACE repositories.RepoProduct 73 update - Exit
+18 Apr 2022 08:14:45,488 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+18 Apr 2022 08:14:45,489 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 186, Amandina | 9.9 | 99, Butuc de ciocolata | 12.1 | 292, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
