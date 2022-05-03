@@ -304,3 +304,5 @@
 18 Apr 2022 08:14:45,488 TRACE repositories.RepoProduct 73 update - Exit
 18 Apr 2022 08:14:45,488 TRACE repositories.RepoProduct 107 findAll - Enter find all products
 18 Apr 2022 08:14:45,489 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 186, Amandina | 9.9 | 99, Butuc de ciocolata | 12.1 | 292, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])
+21 Apr 2022 02:53:17,274 TRACE repositories.RepoProduct 107 findAll - Enter find all products
+21 Apr 2022 02:53:17,409 TRACE repositories.RepoProduct 133 findAll - Exit with([Diplomat | 8.9 | 186, Amandina | 9.9 | 99, Butuc de ciocolata | 12.1 | 292, Eclere | 6.9 | 420, Savarina | 5.8 | 500, Clatite americane | 3.2 | 400, Tort de fructe | 7.4 | 300])

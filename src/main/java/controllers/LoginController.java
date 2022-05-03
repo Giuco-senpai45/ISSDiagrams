@@ -8,10 +8,20 @@ import javafx.scene.control.*;
 import javafx.stage.Stage;
 import mains.StartGUI;
 import model.Organizer;
+import org.json.JSONArray;
+import org.json.JSONObject;
 import repositories.RepoOrganizer;
 import repositories.RepoProduct;
 
 import java.io.IOException;
+import java.net.URI;
+import java.net.URLEncoder;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
+import java.util.Map;
 
 public class LoginController {
     @FXML
@@ -29,7 +39,7 @@ public class LoginController {
     private Stage mainStage;
     private RepoOrganizer repoOrganizer;
     private RepoProduct repoProduct;
-
+    private HttpClient client;
 
     public void loginOrganiserHandler(ActionEvent actionEvent) {
         if(textName.getText().equals("")){
@@ -41,8 +51,21 @@ public class LoginController {
         else {
             String name = textName.getText();
             String password = textPassword.getText();
+
+            Map<Object, Object> data = new HashMap<>();
+            data.put("name", name);
+            data.put("password", password);
             try {
-                Organizer loggedOrganiser = repoOrganizer.findOrganiserLogin(name,password);
+//                Organizer loggedOrganiser = repoOrganizer.findOrganiserLogin(name,password);
+                HttpRequest request = HttpRequest.newBuilder()
+                        .POST(ofFormData(data))
+                        .header("Content-type","application/x-www-form-urlencoded")
+                        .uri(URI.create("http://localhost:3000/api/v1/authenticate_user"))
+                        .build();
+                Organizer loggedOrganiser = client.sendAsync(request, HttpResponse.BodyHandlers.ofString())
+                        .thenApply(HttpResponse::body)
+                        .thenApply(LoginController::parseLoggedOrganiser)
+                        .join();
                 if(loggedOrganiser == null){
                     loginErrorLabel.setText("We couldn't find that username!");
                     resetTextFields();
@@ -71,10 +94,35 @@ public class LoginController {
         resetTextFields();
     }
 
+    public static HttpRequest.BodyPublisher ofFormData(Map<Object, Object> data) {
+        var builder = new StringBuilder();
+        for (Map.Entry<Object, Object> entry : data.entrySet()) {
+            if (builder.length() > 0) {
+                builder.append("&");
+            }
+            builder.append(URLEncoder.encode(entry.getKey().toString(), StandardCharsets.UTF_8));
+            builder.append("=");
+            builder.append(URLEncoder.encode(entry.getValue().toString(), StandardCharsets.UTF_8));
+        }
+        return HttpRequest.BodyPublishers.ofString(builder.toString());
+    }
+
+    public static Organizer parseLoggedOrganiser(String responseBody) {
+        JSONObject resp = new JSONObject(responseBody);
+        JSONObject orgJson = resp.getJSONObject("data");
+        Integer id = orgJson.getInt("id");
+        String name = orgJson.getString("name");
+        String password = orgJson.getString("password");
+
+        return new Organizer(id,name,password);
+    }
+
     public void setRepos(RepoOrganizer repoOrganiser, RepoProduct repoProduct,Stage stage) {
         this.repoOrganizer = repoOrganiser;
         this.repoProduct = repoProduct;
         this.mainStage = stage;
+
+         client = HttpClient.newHttpClient();
     }
 
     public void connectUser(Organizer connectedOrganiser, ActionEvent actionEvent)
