@@ -2,23 +2,21 @@ package model;
 
 import java.io.Serializable;
 
-public class Organizer implements Serializable {
+public class Admin implements Serializable {
     private Integer id;
     private String password;
     private String name;
 
-    public Organizer() {
+    public Admin() {
     }
 
-
-
-    public Organizer(Integer id,String name, String password) {
+    public Admin(Integer id, String name, String password) {
         this.id = id;
         this.password = password;
         this.name = name;
     }
 
-    public Organizer(String password, String name) {
+    public Admin(String password, String name) {
         this.password = password;
         this.name = name;
     }
@@ -49,6 +47,10 @@ public class Organizer implements Serializable {
 
     @Override
     public String toString() {
-        return name;
+        return "Admin{" +
+                "id=" + id +
+                ", password='" + password + '\'' +
+                ", name='" + name + '\'' +
+                '}';
     }
 }

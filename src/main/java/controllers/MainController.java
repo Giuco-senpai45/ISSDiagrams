@@ -96,25 +96,12 @@ public class MainController {
             }
         });
 
-        productsListView.setCellFactory(cell -> {
-            return new ListCell<Product>() {
-                @Override
-                protected void updateItem(Product item, boolean empty) {
-                    super.updateItem(item, empty);
-                    if (item != null) {
-                        setText(item.getName() + "\t\t\t\t\t\tPrice: " + item.getPrice());
-
-                        setFont(Font.font(16));
-                    }
-                }
-            };
-        });
-
         client = HttpClient.newHttpClient();
         loadProducts();
     }
 
     public void loadProducts(){
+        productsListView.getItems().clear();
         HttpRequest request = HttpRequest.newBuilder()
                 .GET()
                 .header("Content-type","application/x-www-form-urlencoded")
@@ -274,30 +261,45 @@ public class MainController {
                         .thenApply(HttpResponse::body)
                         .thenApply(MainController::parseProductsList)
                         .join();
+                productsListView.getItems().clear();
                 productsListView.setItems(FXCollections.observableArrayList(lMatches));
             }
             else {
+                productsListView.getItems().clear();
                 loadProducts();
             }
         }
     }
 
     public void viewProductDetailsHandler(ActionEvent actionEvent) {
-        Stage stage = new Stage();
-        FXMLLoader fxmlLoader = new FXMLLoader(StartGUI.class.getResource("../product-details-view.fxml"));
-        Scene scene = null;
-        try {
-            scene = new Scene(fxmlLoader.load());
-            ProductDetailsController productDetailsController = fxmlLoader.getController();
-            productDetailsController.viewProduct(currentProduct);
+        if(currentProduct != null)
+        {
+            Stage stage = new Stage();
+            FXMLLoader fxmlLoader = new FXMLLoader(StartGUI.class.getResource("../product-details-view.fxml"));
+            Scene scene = null;
+            try {
+                scene = new Scene(fxmlLoader.load());
+                ProductDetailsController productDetailsController = fxmlLoader.getController();
+                productDetailsController.viewProduct(currentProduct);
+            }
+            catch(IOException e) {
+                e.printStackTrace();
+            }
+            stage.sizeToScene();
+            stage.setScene(scene);
+            stage.setTitle("Product details");
+            stage.setResizable(false);
+            stage.show();
         }
-        catch(IOException e) {
-            e.printStackTrace();
+        else {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Error");
+            alert.setContentText("No product selected");
+            alert.showAndWait().ifPresent(rs -> {
+                if (rs == ButtonType.OK) {
+                    System.out.println("Pressed OK.");
+                }
+            });
         }
-        stage.sizeToScene();
-        stage.setScene(scene);
-        stage.setTitle("Product details");
-        stage.setResizable(false);
-        stage.show();
     }
 }

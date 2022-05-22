@@ -7,6 +7,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
 import mains.StartGUI;
+import model.Admin;
 import model.Organizer;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -117,6 +118,16 @@ public class LoginController {
         return new Organizer(id,name,password);
     }
 
+    public static Admin parseLoggedAdmin(String responseBody) {
+        JSONObject resp = new JSONObject(responseBody);
+        JSONObject orgJson = resp.getJSONObject("data");
+        Integer id = orgJson.getInt("id");
+        String name = orgJson.getString("name");
+        String password = orgJson.getString("password");
+
+        return new Admin(id,name,password);
+    }
+
     public void setRepos(RepoOrganizer repoOrganiser, RepoProduct repoProduct,Stage stage) {
         this.repoOrganizer = repoOrganiser;
         this.repoProduct = repoProduct;
@@ -128,7 +139,7 @@ public class LoginController {
     public void connectUser(Organizer connectedOrganiser, ActionEvent actionEvent)
     {
         Stage stage = new Stage();
-        FXMLLoader fxmlLoader = new FXMLLoader(StartGUI.class.getResource("../matches-main-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(StartGUI.class.getResource("../main-view.fxml"));
         Scene scene = null;
         try {
             scene = new Scene(fxmlLoader.load());
@@ -149,5 +160,77 @@ public class LoginController {
     private void resetTextFields(){
         textName.setText(null);
         textPassword.setText(null);
+    }
+
+    public void adminHandler(ActionEvent actionEvent) {
+        if(textName.getText().equals("")){
+            loginErrorLabel.setText("Name cannot be empty!");
+        }
+        else if (textPassword.getText().equals("")) {
+            loginErrorLabel.setText("Password cannot be empty!");
+        }
+        else {
+            String name = textName.getText();
+            String password = textPassword.getText();
+
+            Map<Object, Object> data = new HashMap<>();
+            data.put("name", name);
+            data.put("password", password);
+            try {
+//                Organizer loggedOrganiser = repoOrganizer.findOrganiserLogin(name,password);
+                HttpRequest request = HttpRequest.newBuilder()
+                        .POST(ofFormData(data))
+                        .header("Content-type","application/x-www-form-urlencoded")
+                        .uri(URI.create("http://localhost:3000/api/v1/authenticate_admin"))
+                        .build();
+                Admin loggedAdmin = client.sendAsync(request, HttpResponse.BodyHandlers.ofString())
+                        .thenApply(HttpResponse::body)
+                        .thenApply(LoginController::parseLoggedAdmin)
+                        .join();
+                if(loggedAdmin == null){
+                    loginErrorLabel.setText("We couldn't find that username!");
+                    resetTextFields();
+                    return;
+                }
+                else {
+                    connectAdmin(loggedAdmin, actionEvent);
+                }
+                loginErrorLabel.setVisible(false);
+            }
+            catch(Exception e){
+                Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                System.out.println(e.getMessage());
+                alert.setTitle("Error");
+                alert.setHeaderText("Look, an Information Dialog");
+                alert.setContentText(e.getMessage());
+                alert.showAndWait().ifPresent(rs -> {
+                    if (rs == ButtonType.OK) {
+                        System.out.println("Pressed OK.");
+                    }
+                });
+                loginErrorLabel.setVisible(true);
+            }
+        }
+        resetTextFields();
+    }
+
+    private void connectAdmin(Admin loggedAdmin, ActionEvent actionEvent) {
+        Stage stage = new Stage();
+        FXMLLoader fxmlLoader = new FXMLLoader(StartGUI.class.getResource("../admin-view.fxml"));
+        Scene scene = null;
+        try {
+            scene = new Scene(fxmlLoader.load());
+            AdminController adminController = fxmlLoader.getController();
+            adminController.loadAppLoggedAdmin(loggedAdmin,stage);
+        }
+        catch(IOException e) {
+            e.printStackTrace();
+        }
+        stage.sizeToScene();
+        stage.setScene(scene);
+        stage.setTitle("Matches");
+        stage.setResizable(false);
+        stage.show();
+        mainStage.hide();
     }
 }
